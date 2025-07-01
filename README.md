@@ -1,43 +1,45 @@
-# Proyecto Carrito de Compras - JavaScript
+# Proyecto Carrito de Compras - JavaScript DOM
 
-Este proyecto es una sencilla aplicación de consola desarrollada en JavaScript que simula un carrito de compras para un catálogo de relojes. Permite al usuario visualizar el catálogo, seleccionar productos para agregar al carrito, ver el carrito con el total a pagar, y finalizar la compra.
+Este proyecto es una aplicación web desarrollada en JavaScript que simula un carrito de compras para un catálogo de relojes.  
+Fue migrado de una versión de consola a una versión 100% interactiva utilizando **HTML**, **CSS** y **manipulación del DOM**, sin usar `prompt()` ni `alert()`.
 
 ---
 
-## Funcionalidades
+## 🎯 Funcionalidades
 
 - Mostrar catálogo de relojes con nombre, precio y color.
-- Agregar relojes al carrito de compras.
-- Visualizar el carrito con el detalle de productos y el total.
-- Información sobre envíos.
-- Finalizar la compra.
+- Agregar relojes al carrito de compras con botones dinámicos.
+- Visualizar el carrito con el detalle de productos, total a pagar y opción de eliminar productos.
+- Finalizar la compra mostrando un mensaje en pantalla (sin `alert`).
+- Guardar el carrito en **localStorage** para mantener los datos aunque se recargue la página.
 
 ---
 
-## Tecnologías usadas
+## 🧩 Tecnologías usadas
 
-- JavaScript
-- Uso de `prompt()`, `alert()` y `confirm()` para interacción simple en consola.
+- **HTML5**  
+- **CSS3** (más Bootstrap para estilos básicos)
+- **JavaScript** (manipulación del DOM, eventos, arrays, localStorage)
 
 ---
 
-## Cómo usar
+## 🚀 Cómo usar
 
 1. Clonar o descargar este repositorio.
-2. Abrir el archivo `index.html` en un navegador (si usas un entorno HTML).
-3. Seguir las instrucciones en las ventanas de alerta y prompts.
-4. Seleccionar opciones en el menú para interactuar con el carrito.
+2. Abrir el archivo `index.html` en tu navegador.
+3. Explorar el catálogo, agregar productos al carrito, eliminar o finalizar la compra.
+4. El mensaje final y los avisos se muestran directamente en la página.
 
 ---
 
 ## 🔗 Acceso al proyecto
 
 Podés ver el repositorio completo y su historial de versiones en GitHub:  
-[https://github.com/DanteBuenoWorkspace/Entregable1-Bueno](https://github.com/DanteBuenoWorkspace/Entregable1-Bueno)
+[https://github.com/DanteBuenoWorkspace/Entregable2-Bueno](https://github.com/DanteBuenoWorkspace/Entregable2-Bueno)
 
 ---
 
 ## 📌 Historial de versiones
 
 El proyecto fue versionado utilizando Git. Podés ver los commits en la pestaña **"Commits"** del repositorio o aquí:  
-[Historial de commits](https://github.com/DanteBuenoWorkspace/Entregable1-Bueno/commits/main)
+[Historial de commits](https://github.com/DanteBuenoWorkspace/Entregable2-Bueno/commits/main)
